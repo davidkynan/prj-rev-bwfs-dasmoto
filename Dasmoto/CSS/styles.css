@@ -1,12 +1,22 @@
+body {
+border: 3px solid red;
+margin: 70px 70px 70px 70px;
+    padding: 5px 5px 5px 5px;
+}
 
+    
+wrapper {
+    background-color: white;
+}
+    
+
+
+border {
+    color: red;
+}
 
 #header {
-    height: 120px;
-    font-family: Helvetica;
-    font-size: 50px;
-    font-weight: bold;
-    color: khaki;
-    text-align: center;
+    height: 110px;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
 
 }
@@ -19,6 +29,15 @@
 
 p {
     font-family: Helvetica;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 90px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    padding: 1px;
 }
 
 h2 {
